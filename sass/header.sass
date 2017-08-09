@@ -1,0 +1,67 @@
+@import "bourbon"
+@import "vars.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "RobotoRegular", sans-serif
+	overflow-x: hidden
+	background-image: url("../img/head-bg.jpg")
+	background-position: top
+	background-size: cover
+	background-repeat: no-repeat
+
+.hidden
+	display: none
+
+header
+	color: #fff
+
+
+.logo
+	max-width: 292px
+	margin-top: 110px
+	img
+		width: 100%
+
+nav
+	float: right
+	margin-top: 105px
+	ul
+		list-style: none
+		li
+			display: inline-block
+			margin: 0 27px
+			transition: .3s
+			a
+				color: #fff
+				text-transform: uppercase
+				text-decoration: none
+				font-size: 16px
+				line-height: 1.4em
+				line-height: 
+				font-family: "Montserrat-Regular", sans-serif
+				&:hover,
+				&:focus
+					color: #fff
+					text-decoration: none
+			&:hover,
+			&.active
+				border-bottom: 2px solid #fff
+		
+.main-slogan
+	margin-top: 130px
+	h1
+		font-size: 48px
+		line-height: 1.55em
+		font-family: "Raleway-Light", sans-serif
+		font-weight: normal
+		text-transform: uppercase
+		padding-right: 20px
+		span
+			font-family: "Raleway-ExtraBold", sans-serif
+			font-weight: bold
+
+

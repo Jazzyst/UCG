@@ -8,7 +8,7 @@ $(function() {
    $target = $(target);
    
   $('html, body').stop().animate({
-   'scrollTop': $target.offset().top-170
+   'scrollTop': $target.offset().top-100
    }, 500, 'swing', function () {
    window.location.hash = target;
    });

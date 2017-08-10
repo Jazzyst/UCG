@@ -38,7 +38,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	body
-		background-size: 100% 50%
+		background-size: 100% 10%
 
 @media only screen and (max-width : 991px)
 	nav 
@@ -62,6 +62,15 @@
 		p
 			font-size: 12px
 	
+
+	.slick-prev,
+	.slick-next
+		width: 40px
+		height: 40px
+	.slick-next
+		right: 20px
+	.slick-prev
+		left: 20px
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	
@@ -88,7 +97,7 @@
 
 @media only screen and (max-width : 767px)
 	body
-		background-size: 100% 21%
+		background-size: 100% 8%
 	.services__item
 		max-width: 370px
 		margin: 0 auto
@@ -109,10 +118,16 @@
 		margin-bottom: 50px
 	.about_us__img
 		margin: 0 auto
+
+	.projects
+		.section_heading
+			text-align: center
+
+	
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	body
-		background-size: 100% 21%
+		background-size: 100% 6%
 	.main-slogan 
 		h1
 			font-size: 28px
@@ -124,6 +139,12 @@
 		top: 39px
 	.services__item
 		max-width: 280px
+
+	// .slider_item 
+	// 	max-width: 80%
+	// 	outline: none
+	// 	img
+	// 		width: 100%
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/

@@ -128,5 +128,46 @@ body textarea:required:valid
 // About Us END
 
 
+// projects
+.slider_item 
+	max-width: calc(100% / 4)
+	outline: none
+	img
+		width: 100%
+.projects__slider
+	position: relative
+.slick-prev,
+.slick-next
+	position: absolute
+	top: 50%
+	transform: translate(0, -50%)
+	z-index: 10
+	width: 60px
+	height: 60px
+	background-image: url("../img/prev-next.png")
+	background-repeat: no-repeat
+	background-position: center
+	background-size: contain
+	border: none
+	background-color: transparent
+	outline: none
+	text-indent: -9999px
+.slick-prev
+	left: 45px
+	
+	transform: translate(0, -50%) rotate(-180deg)
+
+
+.slick-next
+	right: 45px
+
+// projects END
+
+
+
+
+
+
+
 //ALWAYS END
 @import "media"

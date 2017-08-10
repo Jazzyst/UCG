@@ -1,14 +1,19 @@
 $(function() {
+
+	
+
 	// fixed menu
-	$(window).scroll(function() {
-		if($(this).scrollTop() >= 73) {
-		$('.menu-wrap').addClass('stickytop');
-		}
-		else{
-		$('.menu-wrap').removeClass('stickytop');
-		}
-	});
+	// $(window).scroll(function() {
+	// 	if($(this).scrollTop() >= 73) {
+	// 	$('.menu-wrap').addClass('stickytop');
+	// 	}
+	// 	else{
+	// 	$('.menu-wrap').removeClass('stickytop');
+	// 	}
+	// });
 	// fixed menu END
+
+
 	// toggle btn
 	$(".toggle-btn").click(function(){
 		$(".toggle-btn").toggleClass("on");
@@ -24,6 +29,7 @@ $(function() {
 		$(this).addClass("active");
 	});
 	// top nav END 
+
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {
@@ -48,5 +54,27 @@ $(function() {
 		});
 		return false;
 	});
+	// slider
 
+		$('.projects__slider').slick({
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+		});
+
+		// slider END
 });

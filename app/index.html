@@ -43,27 +43,35 @@
 
 <body>
 
-	<header>
-		<div class="container">
+	<header id="header">
+		<div class="header_top">
+			<div class="container">
 			<div class="row">
+
 				<div class="col-xs-12 col-sm-4">
 					<div class="logo"><a href="/"><img src="img/logo.png" alt="logo"></a></div>
 				</div>
 				<div class="hidden-xs col-sm-8">
 					<nav>
 						<ul>
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">solutions</a></li>
-							<li><a href="#">blog</a></li>
-							<li><a href="#">contact</a></li>
+							<li class="active"><a href="#header">Home</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#services">solutions</a></li>
+							<li><a href="#blog">blog</a></li>
+							<li><a href="#contacts">contact</a></li>
 						</ul>
 					</nav>
 				</div>
+			</div>
+		</div>
+		</div>
+		
+
+		<div class="container">
+			<div class="row">
 				<div class="col-xs-12">
 					<div class="main-slogan"><h1>We Have a passion<br/> in creating new<br/> and <span>unique spaces</span></h1></div>
 				</div>
-				
 			</div>
 		</div>
 
@@ -72,11 +80,11 @@
 		</span>
 		<div class="menu-wrap">
 			<ul>
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">solutions</a></li>
-				<li><a href="#">blog</a></li>
-				<li><a href="#">contact</a></li>
+				<li class="active"><a href="#header">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#services">solutions</a></li>
+				<li><a href="#blog">blog</a></li>
+				<li><a href="#contacts">contact</a></li>
 			</ul>
 		</div>
 	</header>
@@ -87,7 +95,7 @@
 <!-- services  -->
 
 
-	<div class="services">
+	<div class="services" id="services">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
@@ -131,15 +139,18 @@
 	<!-- services END -->
 
 	<!-- About Us -->
-	<div class="about_us">
+	<div class="about_us" id="blog">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">
-					<div class="section_heading"><h2>Hello!</h2></div>
-					<div class="about_us__descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p></div>
-					<div class="button_wrap">
-						<button>Read More</button>
+					<div class="about_us-text">
+						<div class="section_heading"><h2>Hello!</h2></div>
+						<div class="about_us__descr"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p></div>
+						<div class="button_wrap">
+							<button>Read More</button>
+						</div>
 					</div>
+					
 				</div>
 				<div class="col-xs-12 col-sm-6">
 					<div class="about_us__img"><img src="img/about-us.jpg" alt="about us"></div>
@@ -153,7 +164,7 @@
 
 <!-- our projects -->
 
-<div class="projects">
+<div class="projects" id="projects">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
@@ -173,6 +184,27 @@
 	</div>
 </div>
 
+
+<footer id="contacts">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="cobtacts">
+					<p>contact@architenext.com</p>
+					<p>Fax: +1 800 745 6024</p>
+
+				</div>
+				<div class="social">
+					<a href="#" class="social__item fb"></a>
+					<a href="#" class="social__item twitt"></a>
+					<a href="#" class="social__item pint"></a>
+					<a href="#" class="social__item goo"></a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 <!-- our projects END -->
 
 	<div class="hidden"></div>

@@ -20,7 +20,18 @@ body
 header
 	color: #fff
 
-
+.header_top
+	transition: .5s
+	&.stickytop
+		position: fixed
+		width: 100%
+		z-index: 300
+		background-color: rgba(0, 0, 0, 0.8)
+		.logo
+			margin-top: 40px
+		nav
+			margin-top: 35px
+			padding-bottom: 15px
 .logo
 	max-width: 292px
 	margin-top: 110px

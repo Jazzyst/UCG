@@ -38,7 +38,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 	body
-		background-size: 100% 10%
+		background-size: 100% 21%
 
 @media only screen and (max-width : 991px)
 	nav 
@@ -97,7 +97,7 @@
 
 @media only screen and (max-width : 767px)
 	body
-		background-size: 100% 8%
+		background-size: 100% 10%
 	.services__item
 		max-width: 370px
 		margin: 0 auto
@@ -123,11 +123,14 @@
 		.section_heading
 			text-align: center
 
-	
+	.header_top
+		&.stickytop
+			position: inherit
+			background-color: transparent
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	body
-		background-size: 100% 6%
+		background-size: 100% 8%
 	.main-slogan 
 		h1
 			font-size: 28px
@@ -140,11 +143,8 @@
 	.services__item
 		max-width: 280px
 
-	// .slider_item 
-	// 	max-width: 80%
-	// 	outline: none
-	// 	img
-	// 		width: 100%
+	.social__item
+		margin: 0 10px
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/

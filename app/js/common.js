@@ -1,18 +1,18 @@
-$(function() {
+$(document).ready(function() {
 
 	// scroll
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
-   e.preventDefault();
-   
-  var target = this.hash,
-   $target = $(target);
-   
-  $('html, body').stop().animate({
-   'scrollTop': $target.offset().top-100
-   }, 500, 'swing', function () {
-   window.location.hash = target;
-   });
-   });
+	 e.preventDefault();
+	 
+	var target = this.hash,
+	 $target = $(target);
+	 
+	$('html, body').stop().animate({
+	 'scrollTop': $target.offset().top-100
+	 }, 500, 'swing', function () {
+	 window.location.hash = target;
+	 });
+	 });
 
 
 	// fixed menu
@@ -35,9 +35,9 @@ $(function() {
 	});
 
 	$('.menu-wrap li').click(function(){
-    $(".menu-wrap").slideToggle();
-    $(".toggle-btn").toggleClass("on");
-  });
+		$(".menu-wrap").slideToggle();
+		$(".toggle-btn").toggleClass("on");
+	});
 	// toggle btn END
 
 
@@ -79,20 +79,22 @@ $(function() {
 			slidesToShow: 4,
 			slidesToScroll: 1,
 			responsive: [
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1
-      }
-    }
-  ]
+		{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1
+			}
+		}
+	]
 		});
+
+
 
 		// slider END
 
@@ -102,4 +104,7 @@ $(function() {
 	// $(".about_us-text").animated("fadeInLeft", "fadeOutLeft");
 	// $(".about_us__img").animated("fadeInRight", "fadeOutRight");
 	// $(".services__item").animated("bounceIn", "bounceOut");
+	
 });
+
+

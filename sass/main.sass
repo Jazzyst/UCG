@@ -129,11 +129,16 @@ body textarea:required:valid
 
 
 // projects
+.projects__slider
+	display: none
+	&.slick-initialized
+		display: block
 .slider_item 
 	max-width: calc(100% / 4)
 	outline: none
 	img
 		width: 100%
+
 .projects__slider
 	position: relative
 .slick-prev,

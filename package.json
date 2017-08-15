@@ -3,18 +3,35 @@
   "version": "1.0.0",
   "description": "First Gulp Project",
   "devDependencies": {
-    "browser-sync": "^2.12.5",
+    "browser-sync": "^2.18.13",
+    "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-clean-css": "^2.0.6",
-    "gulp-concat": "^2.6.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.4.0",
+    "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^2.1.2",
+    "i": "^0.3.5",
+    "minimatch": "^3.0.4",
     "node-bourbon": "^4.2.8"
   },
   "dependencies": {
     "graceful-fs": "^4.1.11",
     "minimatch": "^3.0.4"
-  }
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jazzyst/UCG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jazzyst/UCG/issues"
+  },
+  "homepage": "https://github.com/Jazzyst/UCG#readme"
 }
